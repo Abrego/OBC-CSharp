@@ -10,7 +10,7 @@ nombre = Console.ReadLine();
 Console.Write("Apellido: ");
 apellido = Console.ReadLine();
 Console.Write("Edad: ");
-edad = int.Parse(Console.ReadLine());
+edad = int.Parse(Console.ReadLine()!);
 Console.Write("Hobby: ");
 hobby = Console.ReadLine();
 Console.WriteLine($"{nombre} {apellido} tiene {edad} años y su pasatiempo es {hobby}");
@@ -25,12 +25,14 @@ string coche = "R8";
 int puertas = 4;
 int ruedas = 4;
 string marca = "Audi";
+Console.WriteLine($"Coche: {marca} {coche}, {puertas} puertas, {ruedas} ruedas");
 
 // Mesa: peso, largo, material, color
-string material = "Madera";
+string material = "madera";
 double peso = 22.5;
 double largo = 1.20;
 string color = "blanco";
+Console.WriteLine($"Mesa de {material} color {color} con un peso de {peso}Kg y una longitud de {largo}.");
 
 /*
 Ejercicio 3
