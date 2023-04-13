@@ -1,5 +1,3 @@
-*/obj/*
-*/bin/*
-*.vscode/*
-Sesion 3\Estructuras\bin*
-Sesion 3\Estructuras\obj*
+**/obj/*
+**/bin/*
+**.vscode/*
