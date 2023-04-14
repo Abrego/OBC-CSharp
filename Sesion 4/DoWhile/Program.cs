@@ -17,7 +17,7 @@ string salir = "a";
 
 do {
     Console.WriteLine("Ingrese un número: ");
-    numero = int.Parse(Console.ReadLine());
+    numero = int.Parse(Console.ReadLine()!);
     if (numero > 0)
         positivos++;
     else if (numero < 0)
@@ -25,7 +25,7 @@ do {
     else
         ceros++;
     Console.Write("Presione X para salir, o cualquier otra tecla para continuar: ");
-    salir = Console.ReadLine();
+    salir = Console.ReadLine()!;
 } while (salir.ToUpper() != "X");
 
 Console.WriteLine($"Positivos: {positivos}");
